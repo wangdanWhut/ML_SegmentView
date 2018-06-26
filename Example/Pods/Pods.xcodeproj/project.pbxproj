@@ -7,20 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11855229B35BC2ECCEF33781ED373691 /* ML_SegmentStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A53C8189B860740C05905E60450C670 /* ML_SegmentStyle.swift */; };
+		24241F127F82160F7B4B8F90769A0140 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		24E1097C25BCFFA65FBA0B567CE4855D /* Pods-ML_SegmentView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A86FF80C1D32D30616CCBFA86B63A5 /* Pods-ML_SegmentView_Example-dummy.m */; };
 		29EA8698DB899C661F37D08F97EB258E /* Pods-ML_SegmentView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB8AC8D1EE7D5712EFDE55B5D7803E52 /* Pods-ML_SegmentView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C0D3AFACFB62267589EC91DCDCCDA71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		46319C2DC76B5475AE57487E90577358 /* ML_ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ED90C39342F1A116923D71E272F0E2 /* ML_ContentView.swift */; };
-		496AE828F6ED458B8AA9F2DEFEF7A860 /* ML_ScrollPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0FC53309CCB33B2DBF20651B90765 /* ML_ScrollPageView.swift */; };
 		668FA96469DE8E49924F207A41298358 /* Pods-ML_SegmentView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C46A708276144D68F1A26FAA8EEBA6C /* Pods-ML_SegmentView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7886A76D0522ED4296816A8E4AA27CB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		7D54E8B0DA9E07CEA087EBDC635E81D6 /* ML_SegmentView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91868200B7F5D4228669C23CAF951FC0 /* ML_SegmentView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		974A3F10B6B4BD6EFEDC4C2CBB50C1A6 /* ML_SegmentView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6F5FB759EBF2D34F43A693C44BFEC3 /* ML_SegmentView-dummy.m */; };
-		B2864C11DA6A54E3F26CEA3D10BF6772 /* ML_UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1347AA0E309C970401F7E719D9908B /* ML_UIViewControllerExtension.swift */; };
+		778431145809D3259E17CEA5DFC024ED /* ML_ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D61B2FE23FCB0C6CFFCD7506DFF9A12 /* ML_ContentView.swift */; };
+		799C67F958663ED4D6C923A492C9EDBF /* ML_SegmentView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8423933D9792601F96F9DEEF9957BA45 /* ML_SegmentView-dummy.m */; };
+		7DC08335CA74D74B354E36AD6FD8C387 /* ML_UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7E5E936FEFD6CD0D3D633DB86A2B21 /* ML_UIViewControllerExtension.swift */; };
+		B7B58EC54062DC50AB8CA614AB103B4B /* ML_ScrollSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFF15F771B40B620BC838CE1B4541CB /* ML_ScrollSegmentView.swift */; };
 		B89D554486D4CD05DF002558ECC98188 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		BA60B695BBA8AEFA8F5DDFB12A21D7F8 /* ML_SegmentStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F13BD62540015D3C1175EB75CFB80C /* ML_SegmentStyle.swift */; };
 		C496EF514E532B6256334C6AE4E38E0B /* Pods-ML_SegmentView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C38CA688F177D045BFEF856F08B90BA /* Pods-ML_SegmentView_Tests-dummy.m */; };
-		DD12EF04EF3C4639A282191883C48F74 /* ML_ScrollSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E62CEFEA7551069C520E441E439FFD5 /* ML_ScrollSegmentView.swift */; };
+		C789AAE02673E06201032525B9C6FC1C /* ML_SegmentView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E75B5FD036991B19FC3C9B5D4A1E891 /* ML_SegmentView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA1816860651DB0A0B2404578E8D0676 /* ML_SegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C7A328B0900877B7F0616B84D63C68 /* ML_SegmentView.swift */; };
+		DDF740ACDB079B4C98D09F6546852B90 /* ML_ScrollPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC72ECAD413F36FB4797FB40B1795C0B /* ML_ScrollPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BB6CBDDAAB102E8D1369A4C107DF7C42;
+			remoteGlobalIDString = CDFFA02D1403AA7E52995774E570E240;
 			remoteInfo = ML_SegmentView;
 		};
 /* End PBXContainerItemProxy section */
@@ -44,42 +45,43 @@
 		00471476E5ECF7AECCA549B575399EE1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		040B2B1AE0BBC2090E7D1CF30AF599C0 /* ML_SegmentView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ML_SegmentView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		09BFA3182E17D53D754DBD08E2D4AF1E /* Pods-ML_SegmentView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ML_SegmentView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0D12FF5835DC6C0BE19706E73A7DB285 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0E75B5FD036991B19FC3C9B5D4A1E891 /* ML_SegmentView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ML_SegmentView-umbrella.h"; sourceTree = "<group>"; };
 		1688595FC1F5F627A2C9FE5878964009 /* Pods-ML_SegmentView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ML_SegmentView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1D1347AA0E309C970401F7E719D9908B /* ML_UIViewControllerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ML_UIViewControllerExtension.swift; path = ML_SegmentView/Classes/ML_UIViewControllerExtension.swift; sourceTree = "<group>"; };
-		209A39571450E36BB5248E3961FE2894 /* ML_SegmentView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ML_SegmentView.xcconfig; sourceTree = "<group>"; };
+		1CFF15F771B40B620BC838CE1B4541CB /* ML_ScrollSegmentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ML_ScrollSegmentView.swift; path = ML_SegmentView/Classes/ML_ScrollSegmentView.swift; sourceTree = "<group>"; };
 		2625A5EBDB0DF1E80DDDABFCE9DF6C90 /* Pods-ML_SegmentView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ML_SegmentView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		30E2609EC6119C2C23EB1F31689D851A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		3173FC13A7A7393B4D654195D29C599D /* ML_SegmentView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ML_SegmentView.modulemap; sourceTree = "<group>"; };
 		3A11D018A3C86B4D13076E76CE8DE432 /* Pods-ML_SegmentView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ML_SegmentView_Tests-resources.sh"; sourceTree = "<group>"; };
 		3B8D1EF4441E7F62E3B64C36A2BC59B6 /* Pods-ML_SegmentView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ML_SegmentView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		52CEE78D95CFB842DA12A27C1A96CCC6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3D61B2FE23FCB0C6CFFCD7506DFF9A12 /* ML_ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ML_ContentView.swift; path = ML_SegmentView/Classes/ML_ContentView.swift; sourceTree = "<group>"; };
+		471BFB8AB3350E2EBBD3D2C7D20D0882 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5A6AB736C05C2502A1546931D48141CC /* Pods-ML_SegmentView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ML_SegmentView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5E62CEFEA7551069C520E441E439FFD5 /* ML_ScrollSegmentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ML_ScrollSegmentView.swift; path = ML_SegmentView/Classes/ML_ScrollSegmentView.swift; sourceTree = "<group>"; };
-		6F35140D1EC4715C2303BA7CDEB9B3FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		704773F69A9CE32BD7E81FDC6BBCAD87 /* ML_SegmentView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ML_SegmentView-prefix.pch"; sourceTree = "<group>"; };
+		5F1D6EC933A4E6122E00AF542560B1B1 /* ML_SegmentView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ML_SegmentView-prefix.pch"; sourceTree = "<group>"; };
+		67FBB701D8A0FB1E99F73B0E3FA48D59 /* ML_SegmentView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ML_SegmentView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6A53C8189B860740C05905E60450C670 /* ML_SegmentStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ML_SegmentStyle.swift; path = ML_SegmentView/Classes/ML_SegmentStyle.swift; sourceTree = "<group>"; };
+		6C0A87F3F6B27C243EE9940675B901B9 /* ML_SegmentView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ML_SegmentView.modulemap; sourceTree = "<group>"; };
 		71E5FC4B3AFB21A82364CDCE59B5BD8C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C53449637FE2B7F2AF1C86A4C5B669E /* Pods-ML_SegmentView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ML_SegmentView_Tests.modulemap"; sourceTree = "<group>"; };
 		7C7DADA9B0CF806205100F9CCC906399 /* Pods_ML_SegmentView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ML_SegmentView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FF4233752E0DC505500ACA75FDCBD77 /* ML_SegmentView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ML_SegmentView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8423933D9792601F96F9DEEF9957BA45 /* ML_SegmentView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ML_SegmentView-dummy.m"; sourceTree = "<group>"; };
 		8C38CA688F177D045BFEF856F08B90BA /* Pods-ML_SegmentView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ML_SegmentView_Tests-dummy.m"; sourceTree = "<group>"; };
 		8CC91C7871DFFC5D4A837114F1442297 /* Pods-ML_SegmentView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ML_SegmentView_Example.modulemap"; sourceTree = "<group>"; };
-		91868200B7F5D4228669C23CAF951FC0 /* ML_SegmentView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ML_SegmentView-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94ED90C39342F1A116923D71E272F0E2 /* ML_ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ML_ContentView.swift; path = ML_SegmentView/Classes/ML_ContentView.swift; sourceTree = "<group>"; };
 		9C3E9586DC32FDBAC36C62913046D3ED /* Pods_ML_SegmentView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ML_SegmentView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C46A708276144D68F1A26FAA8EEBA6C /* Pods-ML_SegmentView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ML_SegmentView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		AD6F5FB759EBF2D34F43A693C44BFEC3 /* ML_SegmentView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ML_SegmentView-dummy.m"; sourceTree = "<group>"; };
+		9C7E5E936FEFD6CD0D3D633DB86A2B21 /* ML_UIViewControllerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ML_UIViewControllerExtension.swift; path = ML_SegmentView/Classes/ML_UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		B1FF47BA683A4DB9416098CADD9398CB /* Pods-ML_SegmentView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ML_SegmentView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B764AAD10F01CA21D2E888A077BC1E9C /* Pods-ML_SegmentView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ML_SegmentView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C9F0C28B47D1683E1CB69527E2A92547 /* Pods-ML_SegmentView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ML_SegmentView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CB8AC8D1EE7D5712EFDE55B5D7803E52 /* Pods-ML_SegmentView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ML_SegmentView_Example-umbrella.h"; sourceTree = "<group>"; };
+		CC1F839039EAEB9D0C5A0A3EB1C1FA66 /* ML_SegmentView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ML_SegmentView.xcconfig; sourceTree = "<group>"; };
 		D6A86FF80C1D32D30616CCBFA86B63A5 /* Pods-ML_SegmentView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ML_SegmentView_Example-dummy.m"; sourceTree = "<group>"; };
+		D7C7A328B0900877B7F0616B84D63C68 /* ML_SegmentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ML_SegmentView.swift; path = ML_SegmentView/Classes/ML_SegmentView.swift; sourceTree = "<group>"; };
 		D975279285DF9F49FECACDC4469D8234 /* Pods-ML_SegmentView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ML_SegmentView_Example-resources.sh"; sourceTree = "<group>"; };
-		E2B0FC53309CCB33B2DBF20651B90765 /* ML_ScrollPageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ML_ScrollPageView.swift; path = ML_SegmentView/Classes/ML_ScrollPageView.swift; sourceTree = "<group>"; };
 		E9176FB7BA7F46AECC31F56EEE676D96 /* Pods-ML_SegmentView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ML_SegmentView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F2F13BD62540015D3C1175EB75CFB80C /* ML_SegmentStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ML_SegmentStyle.swift; path = ML_SegmentView/Classes/ML_SegmentStyle.swift; sourceTree = "<group>"; };
 		F4FCBE86E2121C27F75D7FBEF855F491 /* Pods-ML_SegmentView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ML_SegmentView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FC72ECAD413F36FB4797FB40B1795C0B /* ML_ScrollPageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ML_ScrollPageView.swift; path = ML_SegmentView/Classes/ML_ScrollPageView.swift; sourceTree = "<group>"; };
+		FCFBACB37154A284B0BFA6D35AAF9751 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +101,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E7882A4AA8C7190F2AEFEE7078095D3C /* Frameworks */ = {
+		EBB382749E54841560FB315521E183E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7886A76D0522ED4296816A8E4AA27CB2 /* Foundation.framework in Frameworks */,
+				24241F127F82160F7B4B8F90769A0140 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,19 +122,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4EE485799DA2C231291E25166A73DDBF /* ML_SegmentView */ = {
+		223D120767845434B9B4D5EA492BEC9A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				94ED90C39342F1A116923D71E272F0E2 /* ML_ContentView.swift */,
-				E2B0FC53309CCB33B2DBF20651B90765 /* ML_ScrollPageView.swift */,
-				5E62CEFEA7551069C520E441E439FFD5 /* ML_ScrollSegmentView.swift */,
-				F2F13BD62540015D3C1175EB75CFB80C /* ML_SegmentStyle.swift */,
-				1D1347AA0E309C970401F7E719D9908B /* ML_UIViewControllerExtension.swift */,
-				8072CBAE0EB3C703FBE7738923A69946 /* Pod */,
-				5B3F75EEB0D70F69BBA96947BCEF6D7B /* Support Files */,
+				FC0C6BD33D54491A95760CAB888EA723 /* ML_SegmentView */,
 			);
-			name = ML_SegmentView;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		50071134EECC0F74C76E0D2757A34ECD /* Pods-ML_SegmentView_Tests */ = {
@@ -151,20 +146,6 @@
 			);
 			name = "Pods-ML_SegmentView_Tests";
 			path = "Target Support Files/Pods-ML_SegmentView_Tests";
-			sourceTree = "<group>";
-		};
-		5B3F75EEB0D70F69BBA96947BCEF6D7B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6F35140D1EC4715C2303BA7CDEB9B3FA /* Info.plist */,
-				3173FC13A7A7393B4D654195D29C599D /* ML_SegmentView.modulemap */,
-				209A39571450E36BB5248E3961FE2894 /* ML_SegmentView.xcconfig */,
-				AD6F5FB759EBF2D34F43A693C44BFEC3 /* ML_SegmentView-dummy.m */,
-				704773F69A9CE32BD7E81FDC6BBCAD87 /* ML_SegmentView-prefix.pch */,
-				91868200B7F5D4228669C23CAF951FC0 /* ML_SegmentView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ML_SegmentView";
 			sourceTree = "<group>";
 		};
 		5CC6352D02E84AADDC0063907C088C70 /* Pods-ML_SegmentView_Example */ = {
@@ -193,31 +174,23 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		78C546A97BCFD0BAB3E56D3677C3E9A5 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4EE485799DA2C231291E25166A73DDBF /* ML_SegmentView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				78C546A97BCFD0BAB3E56D3677C3E9A5 /* Development Pods */,
+				223D120767845434B9B4D5EA492BEC9A /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				0A6F72FBC81ADB3F3727598BC7A57388 /* Products */,
 				D80CFF51831E084E09D55254B7D8AD5B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8072CBAE0EB3C703FBE7738923A69946 /* Pod */ = {
+		99F83C4764435BFA9EB7B001B3E113CF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				52CEE78D95CFB842DA12A27C1A96CCC6 /* LICENSE */,
-				7FF4233752E0DC505500ACA75FDCBD77 /* ML_SegmentView.podspec */,
-				30E2609EC6119C2C23EB1F31689D851A /* README.md */,
+				FCFBACB37154A284B0BFA6D35AAF9751 /* LICENSE */,
+				67FBB701D8A0FB1E99F73B0E3FA48D59 /* ML_SegmentView.podspec */,
+				0D12FF5835DC6C0BE19706E73A7DB285 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -239,17 +212,39 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		F1F7584503ACF15B5A8A4141EE675DB3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				471BFB8AB3350E2EBBD3D2C7D20D0882 /* Info.plist */,
+				6C0A87F3F6B27C243EE9940675B901B9 /* ML_SegmentView.modulemap */,
+				CC1F839039EAEB9D0C5A0A3EB1C1FA66 /* ML_SegmentView.xcconfig */,
+				8423933D9792601F96F9DEEF9957BA45 /* ML_SegmentView-dummy.m */,
+				5F1D6EC933A4E6122E00AF542560B1B1 /* ML_SegmentView-prefix.pch */,
+				0E75B5FD036991B19FC3C9B5D4A1E891 /* ML_SegmentView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ML_SegmentView";
+			sourceTree = "<group>";
+		};
+		FC0C6BD33D54491A95760CAB888EA723 /* ML_SegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				3D61B2FE23FCB0C6CFFCD7506DFF9A12 /* ML_ContentView.swift */,
+				FC72ECAD413F36FB4797FB40B1795C0B /* ML_ScrollPageView.swift */,
+				1CFF15F771B40B620BC838CE1B4541CB /* ML_ScrollSegmentView.swift */,
+				6A53C8189B860740C05905E60450C670 /* ML_SegmentStyle.swift */,
+				D7C7A328B0900877B7F0616B84D63C68 /* ML_SegmentView.swift */,
+				9C7E5E936FEFD6CD0D3D633DB86A2B21 /* ML_UIViewControllerExtension.swift */,
+				99F83C4764435BFA9EB7B001B3E113CF /* Pod */,
+				F1F7584503ACF15B5A8A4141EE675DB3 /* Support Files */,
+			);
+			name = ML_SegmentView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4ACEEEEA75D6C10B2F129C5A3654A264 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7D54E8B0DA9E07CEA087EBDC635E81D6 /* ML_SegmentView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B0FCB742F587276DFA5D18BBAFEEF1B8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -263,6 +258,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				668FA96469DE8E49924F207A41298358 /* Pods-ML_SegmentView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3BC19DB7DBBAC7B71D560AFD25DFD44 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C789AAE02673E06201032525B9C6FC1C /* ML_SegmentView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,13 +308,13 @@
 			productReference = 9C3E9586DC32FDBAC36C62913046D3ED /* Pods_ML_SegmentView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BB6CBDDAAB102E8D1369A4C107DF7C42 /* ML_SegmentView */ = {
+		CDFFA02D1403AA7E52995774E570E240 /* ML_SegmentView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8DC44DC00B3FDE1101D6EED71FAAE4A2 /* Build configuration list for PBXNativeTarget "ML_SegmentView" */;
+			buildConfigurationList = 94072CC45E230B030ACE1A57D79171C5 /* Build configuration list for PBXNativeTarget "ML_SegmentView" */;
 			buildPhases = (
-				D962A9633FA9E930B77C7E65CEDDA42A /* Sources */,
-				E7882A4AA8C7190F2AEFEE7078095D3C /* Frameworks */,
-				4ACEEEEA75D6C10B2F129C5A3654A264 /* Headers */,
+				BD2E8C21C2AC840E387AF94388B01B87 /* Sources */,
+				EBB382749E54841560FB315521E183E6 /* Frameworks */,
+				C3BC19DB7DBBAC7B71D560AFD25DFD44 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -329,7 +332,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -343,7 +346,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BB6CBDDAAB102E8D1369A4C107DF7C42 /* ML_SegmentView */,
+				CDFFA02D1403AA7E52995774E570E240 /* ML_SegmentView */,
 				8A9426EC7E5F9E3DC3C177804FEEFDA3 /* Pods-ML_SegmentView_Example */,
 				2F273DCD836C7328D935F214C30ABAEC /* Pods-ML_SegmentView_Tests */,
 			);
@@ -367,16 +370,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D962A9633FA9E930B77C7E65CEDDA42A /* Sources */ = {
+		BD2E8C21C2AC840E387AF94388B01B87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46319C2DC76B5475AE57487E90577358 /* ML_ContentView.swift in Sources */,
-				496AE828F6ED458B8AA9F2DEFEF7A860 /* ML_ScrollPageView.swift in Sources */,
-				DD12EF04EF3C4639A282191883C48F74 /* ML_ScrollSegmentView.swift in Sources */,
-				BA60B695BBA8AEFA8F5DDFB12A21D7F8 /* ML_SegmentStyle.swift in Sources */,
-				974A3F10B6B4BD6EFEDC4C2CBB50C1A6 /* ML_SegmentView-dummy.m in Sources */,
-				B2864C11DA6A54E3F26CEA3D10BF6772 /* ML_UIViewControllerExtension.swift in Sources */,
+				778431145809D3259E17CEA5DFC024ED /* ML_ContentView.swift in Sources */,
+				DDF740ACDB079B4C98D09F6546852B90 /* ML_ScrollPageView.swift in Sources */,
+				B7B58EC54062DC50AB8CA614AB103B4B /* ML_ScrollSegmentView.swift in Sources */,
+				11855229B35BC2ECCEF33781ED373691 /* ML_SegmentStyle.swift in Sources */,
+				799C67F958663ED4D6C923A492C9EDBF /* ML_SegmentView-dummy.m in Sources */,
+				CA1816860651DB0A0B2404578E8D0676 /* ML_SegmentView.swift in Sources */,
+				7DC08335CA74D74B354E36AD6FD8C387 /* ML_UIViewControllerExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,7 +390,7 @@
 		628D9C7DC2012D287E9476420FAC87A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ML_SegmentView;
-			target = BB6CBDDAAB102E8D1369A4C107DF7C42 /* ML_SegmentView */;
+			target = CDFFA02D1403AA7E52995774E570E240 /* ML_SegmentView */;
 			targetProxy = 8E7E0A7D736C49FE39A2AD00F74D5F83 /* PBXContainerItemProxy */;
 		};
 		C947FFDAF1D80E690E30CACBAD74BB0E /* PBXTargetDependency */ = {
@@ -431,9 +435,9 @@
 			};
 			name = Debug;
 		};
-		4FB1EBB825567D910B29CD0430D279D0 /* Release */ = {
+		6E169FD9CF5931B43D598D47407FE05A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 209A39571450E36BB5248E3961FE2894 /* ML_SegmentView.xcconfig */;
+			baseConfigurationReference = CC1F839039EAEB9D0C5A0A3EB1C1FA66 /* ML_SegmentView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -455,14 +459,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -527,9 +530,9 @@
 			};
 			name = Debug;
 		};
-		9D3BB0A5CAB5AD9F020518A7F2BFF0D9 /* Debug */ = {
+		902566C911ECC78BEB133AC968A7ADE9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 209A39571450E36BB5248E3961FE2894 /* ML_SegmentView.xcconfig */;
+			baseConfigurationReference = CC1F839039EAEB9D0C5A0A3EB1C1FA66 /* ML_SegmentView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -551,13 +554,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		A1100F8F0C39E12FC7134C60B7821D82 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -682,7 +686,6 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -743,11 +746,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8DC44DC00B3FDE1101D6EED71FAAE4A2 /* Build configuration list for PBXNativeTarget "ML_SegmentView" */ = {
+		94072CC45E230B030ACE1A57D79171C5 /* Build configuration list for PBXNativeTarget "ML_SegmentView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D3BB0A5CAB5AD9F020518A7F2BFF0D9 /* Debug */,
-				4FB1EBB825567D910B29CD0430D279D0 /* Release */,
+				6E169FD9CF5931B43D598D47407FE05A /* Debug */,
+				902566C911ECC78BEB133AC968A7ADE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ML_SegmentView
 
 class ViewController: UIViewController {
     

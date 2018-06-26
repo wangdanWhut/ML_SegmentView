@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ML_SegmentView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'ML_SegmentView.'
 
 # This description is used to generate tags and improve search results.

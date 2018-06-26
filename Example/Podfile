@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ML_SegmentView_Example' do
+  pod 'ML_SegmentView', :path => '../'
+
+  target 'ML_SegmentView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

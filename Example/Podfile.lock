@@ -1,0 +1,16 @@
+PODS:
+  - ML_SegmentView (0.1.0)
+
+DEPENDENCIES:
+  - ML_SegmentView (from `../`)
+
+EXTERNAL SOURCES:
+  ML_SegmentView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ML_SegmentView: eff11910df7948cfd0b0b2fefae9b90d404165f1
+
+PODFILE CHECKSUM: f3bb2148a06171ca09c5d46bb0f7343b5586d907
+
+COCOAPODS: 1.5.3

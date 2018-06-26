@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24E1097C25BCFFA65FBA0B567CE4855D /* Pods-ML_SegmentView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A86FF80C1D32D30616CCBFA86B63A5 /* Pods-ML_SegmentView_Example-dummy.m */; };
+		29EA8698DB899C661F37D08F97EB258E /* Pods-ML_SegmentView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB8AC8D1EE7D5712EFDE55B5D7803E52 /* Pods-ML_SegmentView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C0D3AFACFB62267589EC91DCDCCDA71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		46319C2DC76B5475AE57487E90577358 /* ML_ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ED90C39342F1A116923D71E272F0E2 /* ML_ContentView.swift */; };
+		496AE828F6ED458B8AA9F2DEFEF7A860 /* ML_ScrollPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0FC53309CCB33B2DBF20651B90765 /* ML_ScrollPageView.swift */; };
+		668FA96469DE8E49924F207A41298358 /* Pods-ML_SegmentView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C46A708276144D68F1A26FAA8EEBA6C /* Pods-ML_SegmentView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7886A76D0522ED4296816A8E4AA27CB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		7D54E8B0DA9E07CEA087EBDC635E81D6 /* ML_SegmentView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91868200B7F5D4228669C23CAF951FC0 /* ML_SegmentView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		974A3F10B6B4BD6EFEDC4C2CBB50C1A6 /* ML_SegmentView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6F5FB759EBF2D34F43A693C44BFEC3 /* ML_SegmentView-dummy.m */; };
+		B2864C11DA6A54E3F26CEA3D10BF6772 /* ML_UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1347AA0E309C970401F7E719D9908B /* ML_UIViewControllerExtension.swift */; };
+		B89D554486D4CD05DF002558ECC98188 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		BA60B695BBA8AEFA8F5DDFB12A21D7F8 /* ML_SegmentStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F13BD62540015D3C1175EB75CFB80C /* ML_SegmentStyle.swift */; };
+		C496EF514E532B6256334C6AE4E38E0B /* Pods-ML_SegmentView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C38CA688F177D045BFEF856F08B90BA /* Pods-ML_SegmentView_Tests-dummy.m */; };
+		DD12EF04EF3C4639A282191883C48F74 /* ML_ScrollSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E62CEFEA7551069C520E441E439FFD5 /* ML_ScrollSegmentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B401320AED1ECFD5EB90C74B3F55038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A9426EC7E5F9E3DC3C177804FEEFDA3;
+			remoteInfo = "Pods-ML_SegmentView_Example";
+		};
+		8E7E0A7D736C49FE39A2AD00F74D5F83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB6CBDDAAB102E8D1369A4C107DF7C42;
+			remoteInfo = ML_SegmentView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00471476E5ECF7AECCA549B575399EE1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040B2B1AE0BBC2090E7D1CF30AF599C0 /* ML_SegmentView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ML_SegmentView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09BFA3182E17D53D754DBD08E2D4AF1E /* Pods-ML_SegmentView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ML_SegmentView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1688595FC1F5F627A2C9FE5878964009 /* Pods-ML_SegmentView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ML_SegmentView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1D1347AA0E309C970401F7E719D9908B /* ML_UIViewControllerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ML_UIViewControllerExtension.swift; path = ML_SegmentView/Classes/ML_UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		209A39571450E36BB5248E3961FE2894 /* ML_SegmentView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ML_SegmentView.xcconfig; sourceTree = "<group>"; };
+		2625A5EBDB0DF1E80DDDABFCE9DF6C90 /* Pods-ML_SegmentView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ML_SegmentView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		30E2609EC6119C2C23EB1F31689D851A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3173FC13A7A7393B4D654195D29C599D /* ML_SegmentView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ML_SegmentView.modulemap; sourceTree = "<group>"; };
+		3A11D018A3C86B4D13076E76CE8DE432 /* Pods-ML_SegmentView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ML_SegmentView_Tests-resources.sh"; sourceTree = "<group>"; };
+		3B8D1EF4441E7F62E3B64C36A2BC59B6 /* Pods-ML_SegmentView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ML_SegmentView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		52CEE78D95CFB842DA12A27C1A96CCC6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A6AB736C05C2502A1546931D48141CC /* Pods-ML_SegmentView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ML_SegmentView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5E62CEFEA7551069C520E441E439FFD5 /* ML_ScrollSegmentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ML_ScrollSegmentView.swift; path = ML_SegmentView/Classes/ML_ScrollSegmentView.swift; sourceTree = "<group>"; };
+		6F35140D1EC4715C2303BA7CDEB9B3FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		704773F69A9CE32BD7E81FDC6BBCAD87 /* ML_SegmentView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ML_SegmentView-prefix.pch"; sourceTree = "<group>"; };
+		71E5FC4B3AFB21A82364CDCE59B5BD8C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C53449637FE2B7F2AF1C86A4C5B669E /* Pods-ML_SegmentView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ML_SegmentView_Tests.modulemap"; sourceTree = "<group>"; };
+		7C7DADA9B0CF806205100F9CCC906399 /* Pods_ML_SegmentView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ML_SegmentView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FF4233752E0DC505500ACA75FDCBD77 /* ML_SegmentView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ML_SegmentView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8C38CA688F177D045BFEF856F08B90BA /* Pods-ML_SegmentView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ML_SegmentView_Tests-dummy.m"; sourceTree = "<group>"; };
+		8CC91C7871DFFC5D4A837114F1442297 /* Pods-ML_SegmentView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ML_SegmentView_Example.modulemap"; sourceTree = "<group>"; };
+		91868200B7F5D4228669C23CAF951FC0 /* ML_SegmentView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ML_SegmentView-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94ED90C39342F1A116923D71E272F0E2 /* ML_ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ML_ContentView.swift; path = ML_SegmentView/Classes/ML_ContentView.swift; sourceTree = "<group>"; };
+		9C3E9586DC32FDBAC36C62913046D3ED /* Pods_ML_SegmentView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ML_SegmentView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C46A708276144D68F1A26FAA8EEBA6C /* Pods-ML_SegmentView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ML_SegmentView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AD6F5FB759EBF2D34F43A693C44BFEC3 /* ML_SegmentView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ML_SegmentView-dummy.m"; sourceTree = "<group>"; };
+		B1FF47BA683A4DB9416098CADD9398CB /* Pods-ML_SegmentView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ML_SegmentView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B764AAD10F01CA21D2E888A077BC1E9C /* Pods-ML_SegmentView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ML_SegmentView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C9F0C28B47D1683E1CB69527E2A92547 /* Pods-ML_SegmentView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ML_SegmentView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CB8AC8D1EE7D5712EFDE55B5D7803E52 /* Pods-ML_SegmentView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ML_SegmentView_Example-umbrella.h"; sourceTree = "<group>"; };
+		D6A86FF80C1D32D30616CCBFA86B63A5 /* Pods-ML_SegmentView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ML_SegmentView_Example-dummy.m"; sourceTree = "<group>"; };
+		D975279285DF9F49FECACDC4469D8234 /* Pods-ML_SegmentView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ML_SegmentView_Example-resources.sh"; sourceTree = "<group>"; };
+		E2B0FC53309CCB33B2DBF20651B90765 /* ML_ScrollPageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ML_ScrollPageView.swift; path = ML_SegmentView/Classes/ML_ScrollPageView.swift; sourceTree = "<group>"; };
+		E9176FB7BA7F46AECC31F56EEE676D96 /* Pods-ML_SegmentView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ML_SegmentView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F2F13BD62540015D3C1175EB75CFB80C /* ML_SegmentStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ML_SegmentStyle.swift; path = ML_SegmentView/Classes/ML_SegmentStyle.swift; sourceTree = "<group>"; };
+		F4FCBE86E2121C27F75D7FBEF855F491 /* Pods-ML_SegmentView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ML_SegmentView_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		562D49DC14F8F10E6ACCB59C29376DE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B89D554486D4CD05DF002558ECC98188 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5312BED7C2A162A61D99AE900FCA937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C0D3AFACFB62267589EC91DCDCCDA71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7882A4AA8C7190F2AEFEE7078095D3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7886A76D0522ED4296816A8E4AA27CB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A6F72FBC81ADB3F3727598BC7A57388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040B2B1AE0BBC2090E7D1CF30AF599C0 /* ML_SegmentView.framework */,
+				9C3E9586DC32FDBAC36C62913046D3ED /* Pods_ML_SegmentView_Example.framework */,
+				7C7DADA9B0CF806205100F9CCC906399 /* Pods_ML_SegmentView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EE485799DA2C231291E25166A73DDBF /* ML_SegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				94ED90C39342F1A116923D71E272F0E2 /* ML_ContentView.swift */,
+				E2B0FC53309CCB33B2DBF20651B90765 /* ML_ScrollPageView.swift */,
+				5E62CEFEA7551069C520E441E439FFD5 /* ML_ScrollSegmentView.swift */,
+				F2F13BD62540015D3C1175EB75CFB80C /* ML_SegmentStyle.swift */,
+				1D1347AA0E309C970401F7E719D9908B /* ML_UIViewControllerExtension.swift */,
+				8072CBAE0EB3C703FBE7738923A69946 /* Pod */,
+				5B3F75EEB0D70F69BBA96947BCEF6D7B /* Support Files */,
+			);
+			name = ML_SegmentView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		50071134EECC0F74C76E0D2757A34ECD /* Pods-ML_SegmentView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				71E5FC4B3AFB21A82364CDCE59B5BD8C /* Info.plist */,
+				7C53449637FE2B7F2AF1C86A4C5B669E /* Pods-ML_SegmentView_Tests.modulemap */,
+				2625A5EBDB0DF1E80DDDABFCE9DF6C90 /* Pods-ML_SegmentView_Tests-acknowledgements.markdown */,
+				5A6AB736C05C2502A1546931D48141CC /* Pods-ML_SegmentView_Tests-acknowledgements.plist */,
+				8C38CA688F177D045BFEF856F08B90BA /* Pods-ML_SegmentView_Tests-dummy.m */,
+				09BFA3182E17D53D754DBD08E2D4AF1E /* Pods-ML_SegmentView_Tests-frameworks.sh */,
+				3A11D018A3C86B4D13076E76CE8DE432 /* Pods-ML_SegmentView_Tests-resources.sh */,
+				9C46A708276144D68F1A26FAA8EEBA6C /* Pods-ML_SegmentView_Tests-umbrella.h */,
+				1688595FC1F5F627A2C9FE5878964009 /* Pods-ML_SegmentView_Tests.debug.xcconfig */,
+				3B8D1EF4441E7F62E3B64C36A2BC59B6 /* Pods-ML_SegmentView_Tests.release.xcconfig */,
+			);
+			name = "Pods-ML_SegmentView_Tests";
+			path = "Target Support Files/Pods-ML_SegmentView_Tests";
+			sourceTree = "<group>";
+		};
+		5B3F75EEB0D70F69BBA96947BCEF6D7B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F35140D1EC4715C2303BA7CDEB9B3FA /* Info.plist */,
+				3173FC13A7A7393B4D654195D29C599D /* ML_SegmentView.modulemap */,
+				209A39571450E36BB5248E3961FE2894 /* ML_SegmentView.xcconfig */,
+				AD6F5FB759EBF2D34F43A693C44BFEC3 /* ML_SegmentView-dummy.m */,
+				704773F69A9CE32BD7E81FDC6BBCAD87 /* ML_SegmentView-prefix.pch */,
+				91868200B7F5D4228669C23CAF951FC0 /* ML_SegmentView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ML_SegmentView";
+			sourceTree = "<group>";
+		};
+		5CC6352D02E84AADDC0063907C088C70 /* Pods-ML_SegmentView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				00471476E5ECF7AECCA549B575399EE1 /* Info.plist */,
+				8CC91C7871DFFC5D4A837114F1442297 /* Pods-ML_SegmentView_Example.modulemap */,
+				B764AAD10F01CA21D2E888A077BC1E9C /* Pods-ML_SegmentView_Example-acknowledgements.markdown */,
+				B1FF47BA683A4DB9416098CADD9398CB /* Pods-ML_SegmentView_Example-acknowledgements.plist */,
+				D6A86FF80C1D32D30616CCBFA86B63A5 /* Pods-ML_SegmentView_Example-dummy.m */,
+				F4FCBE86E2121C27F75D7FBEF855F491 /* Pods-ML_SegmentView_Example-frameworks.sh */,
+				D975279285DF9F49FECACDC4469D8234 /* Pods-ML_SegmentView_Example-resources.sh */,
+				CB8AC8D1EE7D5712EFDE55B5D7803E52 /* Pods-ML_SegmentView_Example-umbrella.h */,
+				C9F0C28B47D1683E1CB69527E2A92547 /* Pods-ML_SegmentView_Example.debug.xcconfig */,
+				E9176FB7BA7F46AECC31F56EEE676D96 /* Pods-ML_SegmentView_Example.release.xcconfig */,
+			);
+			name = "Pods-ML_SegmentView_Example";
+			path = "Target Support Files/Pods-ML_SegmentView_Example";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		78C546A97BCFD0BAB3E56D3677C3E9A5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EE485799DA2C231291E25166A73DDBF /* ML_SegmentView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				78C546A97BCFD0BAB3E56D3677C3E9A5 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0A6F72FBC81ADB3F3727598BC7A57388 /* Products */,
+				D80CFF51831E084E09D55254B7D8AD5B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8072CBAE0EB3C703FBE7738923A69946 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				52CEE78D95CFB842DA12A27C1A96CCC6 /* LICENSE */,
+				7FF4233752E0DC505500ACA75FDCBD77 /* ML_SegmentView.podspec */,
+				30E2609EC6119C2C23EB1F31689D851A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D80CFF51831E084E09D55254B7D8AD5B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CC6352D02E84AADDC0063907C088C70 /* Pods-ML_SegmentView_Example */,
+				50071134EECC0F74C76E0D2757A34ECD /* Pods-ML_SegmentView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4ACEEEEA75D6C10B2F129C5A3654A264 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D54E8B0DA9E07CEA087EBDC635E81D6 /* ML_SegmentView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0FCB742F587276DFA5D18BBAFEEF1B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29EA8698DB899C661F37D08F97EB258E /* Pods-ML_SegmentView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB17D26F5423CC23EDB86E6909B6138C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668FA96469DE8E49924F207A41298358 /* Pods-ML_SegmentView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2F273DCD836C7328D935F214C30ABAEC /* Pods-ML_SegmentView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5C141ED8804CE2E69E9F11F914493A0 /* Build configuration list for PBXNativeTarget "Pods-ML_SegmentView_Tests" */;
+			buildPhases = (
+				A6F54D3A47925213C87479FA75BB92E4 /* Sources */,
+				D5312BED7C2A162A61D99AE900FCA937 /* Frameworks */,
+				BB17D26F5423CC23EDB86E6909B6138C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C947FFDAF1D80E690E30CACBAD74BB0E /* PBXTargetDependency */,
+			);
+			name = "Pods-ML_SegmentView_Tests";
+			productName = "Pods-ML_SegmentView_Tests";
+			productReference = 7C7DADA9B0CF806205100F9CCC906399 /* Pods_ML_SegmentView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8A9426EC7E5F9E3DC3C177804FEEFDA3 /* Pods-ML_SegmentView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3540DC0714DF24E22E881848B4A2C5F0 /* Build configuration list for PBXNativeTarget "Pods-ML_SegmentView_Example" */;
+			buildPhases = (
+				9AAD240D5356FE6A0C0B71BF38ADA30F /* Sources */,
+				562D49DC14F8F10E6ACCB59C29376DE9 /* Frameworks */,
+				B0FCB742F587276DFA5D18BBAFEEF1B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				628D9C7DC2012D287E9476420FAC87A5 /* PBXTargetDependency */,
+			);
+			name = "Pods-ML_SegmentView_Example";
+			productName = "Pods-ML_SegmentView_Example";
+			productReference = 9C3E9586DC32FDBAC36C62913046D3ED /* Pods_ML_SegmentView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB6CBDDAAB102E8D1369A4C107DF7C42 /* ML_SegmentView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DC44DC00B3FDE1101D6EED71FAAE4A2 /* Build configuration list for PBXNativeTarget "ML_SegmentView" */;
+			buildPhases = (
+				D962A9633FA9E930B77C7E65CEDDA42A /* Sources */,
+				E7882A4AA8C7190F2AEFEE7078095D3C /* Frameworks */,
+				4ACEEEEA75D6C10B2F129C5A3654A264 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ML_SegmentView;
+			productName = ML_SegmentView;
+			productReference = 040B2B1AE0BBC2090E7D1CF30AF599C0 /* ML_SegmentView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0A6F72FBC81ADB3F3727598BC7A57388 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB6CBDDAAB102E8D1369A4C107DF7C42 /* ML_SegmentView */,
+				8A9426EC7E5F9E3DC3C177804FEEFDA3 /* Pods-ML_SegmentView_Example */,
+				2F273DCD836C7328D935F214C30ABAEC /* Pods-ML_SegmentView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AAD240D5356FE6A0C0B71BF38ADA30F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E1097C25BCFFA65FBA0B567CE4855D /* Pods-ML_SegmentView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F54D3A47925213C87479FA75BB92E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C496EF514E532B6256334C6AE4E38E0B /* Pods-ML_SegmentView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D962A9633FA9E930B77C7E65CEDDA42A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46319C2DC76B5475AE57487E90577358 /* ML_ContentView.swift in Sources */,
+				496AE828F6ED458B8AA9F2DEFEF7A860 /* ML_ScrollPageView.swift in Sources */,
+				DD12EF04EF3C4639A282191883C48F74 /* ML_ScrollSegmentView.swift in Sources */,
+				BA60B695BBA8AEFA8F5DDFB12A21D7F8 /* ML_SegmentStyle.swift in Sources */,
+				974A3F10B6B4BD6EFEDC4C2CBB50C1A6 /* ML_SegmentView-dummy.m in Sources */,
+				B2864C11DA6A54E3F26CEA3D10BF6772 /* ML_UIViewControllerExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		628D9C7DC2012D287E9476420FAC87A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ML_SegmentView;
+			target = BB6CBDDAAB102E8D1369A4C107DF7C42 /* ML_SegmentView */;
+			targetProxy = 8E7E0A7D736C49FE39A2AD00F74D5F83 /* PBXContainerItemProxy */;
+		};
+		C947FFDAF1D80E690E30CACBAD74BB0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ML_SegmentView_Example";
+			target = 8A9426EC7E5F9E3DC3C177804FEEFDA3 /* Pods-ML_SegmentView_Example */;
+			targetProxy = 3B401320AED1ECFD5EB90C74B3F55038 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		207D4BCEE123FEEE88FF09202F71F65C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1688595FC1F5F627A2C9FE5878964009 /* Pods-ML_SegmentView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ML_SegmentView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ML_SegmentView_Tests/Pods-ML_SegmentView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4FB1EBB825567D910B29CD0430D279D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 209A39571450E36BB5248E3961FE2894 /* ML_SegmentView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ML_SegmentView/ML_SegmentView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ML_SegmentView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ML_SegmentView/ML_SegmentView.modulemap";
+				PRODUCT_MODULE_NAME = ML_SegmentView;
+				PRODUCT_NAME = ML_SegmentView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9D3BB0A5CAB5AD9F020518A7F2BFF0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 209A39571450E36BB5248E3961FE2894 /* ML_SegmentView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ML_SegmentView/ML_SegmentView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ML_SegmentView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ML_SegmentView/ML_SegmentView.modulemap";
+				PRODUCT_MODULE_NAME = ML_SegmentView;
+				PRODUCT_NAME = ML_SegmentView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1100F8F0C39E12FC7134C60B7821D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9F0C28B47D1683E1CB69527E2A92547 /* Pods-ML_SegmentView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ML_SegmentView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ML_SegmentView_Example/Pods-ML_SegmentView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A921C7A5BE5BA1342F55603F48912C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B8D1EF4441E7F62E3B64C36A2BC59B6 /* Pods-ML_SegmentView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ML_SegmentView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ML_SegmentView_Tests/Pods-ML_SegmentView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C588FB4B4EC7DF13B37699A07457D569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9176FB7BA7F46AECC31F56EEE676D96 /* Pods-ML_SegmentView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ML_SegmentView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ML_SegmentView_Example/Pods-ML_SegmentView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3540DC0714DF24E22E881848B4A2C5F0 /* Build configuration list for PBXNativeTarget "Pods-ML_SegmentView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1100F8F0C39E12FC7134C60B7821D82 /* Debug */,
+				C588FB4B4EC7DF13B37699A07457D569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DC44DC00B3FDE1101D6EED71FAAE4A2 /* Build configuration list for PBXNativeTarget "ML_SegmentView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D3BB0A5CAB5AD9F020518A7F2BFF0D9 /* Debug */,
+				4FB1EBB825567D910B29CD0430D279D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5C141ED8804CE2E69E9F11F914493A0 /* Build configuration list for PBXNativeTarget "Pods-ML_SegmentView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				207D4BCEE123FEEE88FF09202F71F65C /* Debug */,
+				A921C7A5BE5BA1342F55603F48912C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

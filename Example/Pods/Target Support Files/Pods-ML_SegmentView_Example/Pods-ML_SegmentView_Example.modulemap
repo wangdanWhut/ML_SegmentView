@@ -1,0 +1,6 @@
+framework module Pods_ML_SegmentView_Example {
+  umbrella header "Pods-ML_SegmentView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

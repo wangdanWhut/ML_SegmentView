@@ -1,0 +1,6 @@
+framework module ML_SegmentView {
+  umbrella header "ML_SegmentView-umbrella.h"
+
+  export *
+  module * { export * }
+}

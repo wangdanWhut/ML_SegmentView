@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ML_SegmentView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ML_SegmentView.'
+  s.summary          = 'ML_SegmentView.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+"仿今日头条segment"
                        DESC
 
-  s.homepage         = 'https://github.com/王丹/ML_SegmentView'
+  s.homepage         = 'https://github.com/wangdanWhut/ML_SegmentView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '王丹' => 'wangd@500wan.com' }
-  s.source           = { :git => 'https://github.com/王丹/ML_SegmentView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/wangdanWhut/ML_SegmentView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
